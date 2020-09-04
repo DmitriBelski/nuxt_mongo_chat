@@ -1,0 +1,121 @@
+:root {
+  --vs-theme-bg: rgb(23, 31, 41);  
+  --vs-theme-color: blue;
+  --vs-theme-layout: rgb(23, 31, 41);
+  --vs-theme-bg2:  rgb(16, 22, 32);
+  --vs-theme-code: purple;
+  --vs-theme-code2: yellow;
+}
+
+/* {name: 'tele1', value: [ 26, 36, 46], active: false, hover: false},
+{name: 'tele2', value: [ 34, 45, 59], active: false, hover: false},
+{name: 'tele3', value: [ 22, 29, 38], active: false, hover: false},
+{name: 'tele4', value: [ 35, 46, 58], active: false, hover: false},
+{name: 'tele5', value: [ 61, 97, 137], active: false, hover: false},
+{name: 'tele6', value: [ 34, 45, 59], active: false, hover: false},
+{name: 'tele7', value: [ 22, 29, 38], active: false, hover: false},
+{name: 'upright', value: [ 40, 56, 73], active: false, hover: false},
+{name: 'left1', value: [ 28, 37, 50], active: false, hover: false},
+{name: 'left2', value: [ 35, 48, 64], active: false, hover: false},
+{name: 'left3', value: [ 29, 36, 47], active: false, hover: false},
+{name: 'left4', value: [ 22, 29, 38], active: false, hover: false},
+{name: 'text', value: [ 122, 140, 157], active: false, hover: false},
+{name: 'icon', value: [ 136, 142, 156], active: false, hover: false}, */
+
+/* :root {
+  --vs-theme-bg: #18191c;
+  --vs-theme-color: #fff;
+  --vs-theme-layout: #1e2023;
+  --vs-theme-bg2: #141417;
+  --vs-theme-code: #141417;
+  --vs-theme-code2: #161619;
+} */
+
+@font-face {
+  font-family: Poppins; 
+  /* src: url(../static/fonts/Poppins/Poppins-Black.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-BlackItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-BoldItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-ExtraLight.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-LightItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-Medium.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-MediumItalic.ttf)format("truetype"); */
+  src: url(../static/fonts/Poppins/Poppins-Regular.ttf)format("truetype");
+  /* src: url(../static/fonts/Poppins/Poppins-SemiBold.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-SemiBoldItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-Thin.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-MediumItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Poppins/Poppins-ThinItalic.ttf)format("truetype"); */
+}
+
+@font-face {
+  font-family: Oxygen; 
+  /* src: url(../static/fonts/Oxygen/Oxygen-Bold.ttf)format("truetype"); */
+  src: url(../static/fonts/Oxygen/Oxygen-Light.ttf)format("truetype");
+  /* src: url(../static/fonts/Oxygen/Oxygen-Regular.ttf)format("truetype"); */
+}
+
+@font-face {
+  font-family: Fira-sans; 
+  src: url(../static/fonts/Fira_Sans/FiraSans-Black.ttf)format("truetype");
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-BlackItalic.ttf)format("truetype"); */
+  src: url(../static/fonts/Fira_Sans/FiraSans-Bold.ttf)format("truetype");
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-BoldItalic.ttf)format("truetype"); */
+  src: url(../static/fonts/Fira_Sans/FiraSans-ExtraLight.ttf)format("truetype");
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-ExtraLightItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-Light.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-LightItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-Medium.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-MediumItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-Regular.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-SemiBold.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-SemiBoldItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-Thin.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Fira_Sans/FiraSans-ThinItalic.ttf)format("truetype"); */
+}
+
+@font-face {
+  font-family: Cantarell; 
+  /* src: url(../static/fonts/Cantarell/Cantarell-Bold.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Cantarell/Cantarell-BoldItalic.ttf)format("truetype"); */
+  /* src: url(../static/fonts/Cantarell/Cantarell-Italic.ttf)format("truetype"); */
+  src: url(../static/fonts/Cantarell/Cantarell-Regular.ttf)format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Fira-sans','Cantarell','Poppins','Oxygen','Helvetica','Helvetica Neue','Avenir Next','PingFang SC','Hiragino Sans GB','Microsoft YaHei','SimSun','sans-serif';
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .3s;
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+
+
