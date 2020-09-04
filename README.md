@@ -24,4 +24,4 @@ $ npm run generate
 ## План разработки
 пока реализован не полностью, разработка продолжается
 
-![Watch the Plan](chat scheme.png)
+![Watch the Plan](chat_scheme.png)
