@@ -2,7 +2,7 @@
 
 Mессенджер на Nuxt, VueJs, Vuex, MongoDB, mongoose, SocketIO </br>
 Дизайн - подражание Telegram </br>
-Онлайн **DEMO** пока готово
+Онлайн **DEMO** пока не готово
 
 ## Build Setup
 
@@ -23,3 +23,5 @@ $ npm run generate
 
 ## План разработки
 пока реализован не полностью, разработка продолжается
+
+![Watch the Plan](chat scheme.png)
